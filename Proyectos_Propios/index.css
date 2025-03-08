@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(134, 134, 132) 20%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 40%, rgb(134, 134, 132) 40%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 80%, rgb(134, 134, 132) 80%, rgb(0, 0, 0) 100%);
+    background-image: conic-gradient(rgb(0, 0, 0), rgb(134, 134, 132) 20%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 40%, rgb(134, 134, 132) 40%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 80%, rgb(134, 134, 132) 80%, rgb(0, 0, 0) 100%);
 
 }
 
@@ -49,8 +49,8 @@ body{
 
 .Opciones{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1rem;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row: 1rem;
     justify-items: center;
     align-items: center;
     margin-top: 5%;
@@ -74,19 +74,39 @@ body{
     align-items: center;
     border: 2px solid white;
     border-radius: 15px;
-    margin: 10px;
+    margin: 25px;
     padding: 10px;
-    
-    height: 70%;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     background-color: rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease-in-out;
     
 }
 
+.c1 img{
+    width: 800px;
+    height: 100%;
+    
+}
+
+.c1 button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px 0px 25px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
 .c1:hover{
-    transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    background-color: rgba(27, 26, 26, 0.5);
     opacity: 0.8;
 }
 
@@ -104,3 +124,4 @@ body{
     color: white;
     text-align: center;
 }
+
