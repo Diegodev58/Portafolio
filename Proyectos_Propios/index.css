@@ -53,7 +53,7 @@ body{
     grid-row: 1rem;
     justify-items: center;
     align-items: center;
-    margin-top: 5%;
+ 
     
 }
 
@@ -64,6 +64,10 @@ body{
 
 .Opciones h2{
     color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 1px;
 }
 
 
@@ -74,10 +78,10 @@ body{
     align-items: center;
     border: 2px solid white;
     border-radius: 15px;
-    margin: 25px;
+    margin: 15px;
     padding: 10px;
     height: 90%;
-    width: 90%;
+    width: 95%;
     background-color: rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease-in-out;
     
@@ -125,3 +129,23 @@ body{
     text-align: center;
 }
 
+footer button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px 0px 25px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+footer button:hover{
+    color: white;
+    background-color: rgba(27, 26, 26, 0.5);
+    opacity: 0.8;
+}
